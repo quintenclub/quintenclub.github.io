@@ -2,11 +2,37 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Quinten Club</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Quinten Club</title>
+        <meta name="description" content="Quinten Club is an open and fun club 'for' and 'about' all people and things called Quinten or not called Quinten." />
     </head>
-    <body>
-        <h1>Welcome to Quinten Club</h1>
+    <body class="d-flex flex-column min-vh-100">
+        <header class="p-3">
+            <nav>
+                <noscript><a href="#menu">Skip to menu</a></noscript>
+                <script>
+                    let skipToMenu = () => {
+                        menu.scrollIntoView({'behavior': 'smooth'});
+                        firstmenulink.focus();
+                    };
+                    document.write('<a href="javascript:skipToMenu()">Skip to menu</a>');
+                </script>
+            </nav>
+        </header>
+        <main class="p-3 mb-4">
+            <h1>Quinten Club</h1>
+            <p>Quinten Club is an open and fun club 'for' and 'about' all people and things called Quinten or not called Quinten.</p>
+        </main>
+        <footer class="mt-auto mb-4 p-3">
+            <noscript><p>--- MENU</p></noscript>
+            <nav id="menu">
+                <ul>
+                    <li class="mb-2">
+                        <a href="/" id="firstmenulink">Home</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
     </body>
 </html>
