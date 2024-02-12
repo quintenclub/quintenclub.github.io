@@ -36,12 +36,16 @@ a:focus {
     text-decoration: none;
 }
 
-.display-flex {
+.d-flex {
     display: flex;
 }
 
 .flex-column {
     flex-direction: column;
+}
+
+.align-items-center {
+    align-items: center;
 }
 
 .min-vh-100 {
@@ -58,6 +62,10 @@ a:focus {
 
 .mt-auto {
     margin-top: auto;
+}
+
+.ml-auto {
+    margin-left: auto;
 }
 
 .p-3 {
