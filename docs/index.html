@@ -7,11 +7,20 @@
         <title>Quinten Club</title>
         <meta name="description" content="An online community for those with the name Quinten" />
     </head>
-    <body class="d-flex flex-column min-vh-100">
-        <header class="p-3 d-flex align-items-center">
-            <img src="quinten_club_logo.svg" alt="Quinten Club Logo" width="64" height="64" />
-            <nav class="ml-auto">
-                <noscript><a href="#menu">Skip to menu</a></noscript>
+    <body>
+        <header class="p-3">
+            <img
+                    src="quinten_club_logo.svg"
+                    alt="Q"
+                    width="64"
+                    height="64"
+                    title="Two moonlike shapes and their negative space form the capital letter Q.&NewLine;The shapes also suggest a magnifying glass, a symbol of curiosity."
+                    class="mb-4"
+                    />
+            <div>---
+                <noscript>
+                    <a href="#menu">Skip to menu</a></noscript>
+                </noscript>
                 <script>
                     let skipToMenu = () => {
                         menu.scrollIntoView({'behavior': 'smooth'});
@@ -19,22 +28,23 @@
                     };
                     document.write('<a href="javascript:skipToMenu()">Skip to menu</a>');
                 </script>
-            </nav>
+            </div>
         </header>
         <main class="p-3 mb-4">
             <h1>Quinten Club</h1>
             <p>An online community for those with the name Quinten</p>
             <p>This clubhouse is (always) under construction. Join <a href="https://github.com/quintenclub" rel="me">the builders</a>.</p>
         </main>
-        <footer class="mt-auto mb-4 p-3">
-            <noscript><p>--- MENU</p></noscript>
-            <nav id="menu">
-                <ul>
-                    <li class="mb-2">
-                        <a href="/" id="firstmenulink">Home</a>
-                    </li>
-                </ul>
-            </nav>
+        <footer class="p-3 mt-auto mb-4">
+            <div>--- MENU
+                <nav id="menu">
+                    <ul>
+                        <li class="mb-2">
+                            <a href="/" id="firstmenulink">Homepage</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </footer>
     </body>
 </html>
